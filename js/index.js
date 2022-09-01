@@ -1,3 +1,4 @@
+import scrollTopBottom from "./dom/Boton_scroll.js";
 import conteoRegresivo from "./dom/cuenta_regresiva.js";
 import hamburgerMenu from "./dom/menu_hamburguesa.js";
 import { digitalClock, alarm } from "./dom/reloj.js";
@@ -13,6 +14,8 @@ d.addEventListener("DOMContentLoaded", (e) => {
 
   conteoRegresivo("conteoRegresivo","May 23, 2023 03:23:19",
   "Feliz cumpleños Johmircha el mejor docente");
+
+  scrollTopBottom(".scroll-top-btn")
 });
 
 
