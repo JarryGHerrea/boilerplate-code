@@ -3,6 +3,7 @@ import conteoRegresivo from "./dom/cuenta_regresiva.js";
 import hamburgerMenu from "./dom/menu_hamburguesa.js";
 import { digitalClock, alarm } from "./dom/reloj.js";
 import{moverBall, shortcuts} from "./dom/teclado.js"
+import darkTheme from "./dom/tema_oscuro.js";
 
 const d = document;
 
@@ -15,7 +16,9 @@ d.addEventListener("DOMContentLoaded", (e) => {
   conteoRegresivo("conteoRegresivo","May 23, 2023 03:23:19",
   "Feliz cumpleños Johmircha el mejor docente");
 
-  scrollTopBottom(".scroll-top-btn")
+  scrollTopBottom(".scroll-top-btn");
+
+  darkTheme(".dark-theme-btn", "dark-mode");
 });
 
 
