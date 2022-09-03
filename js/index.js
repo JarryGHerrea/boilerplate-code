@@ -18,11 +18,13 @@ d.addEventListener("DOMContentLoaded", (e) => {
 
   scrollTopBottom(".scroll-top-btn");
 
-  darkTheme(".dark-theme-btn", "dark-mode");
 });
 
 
 d.addEventListener("keydown",(e) =>{
 shortcuts(e);
 moverBall(e,".ball",".stage")
-})
+});
+
+
+darkTheme(".dark-theme-btn", "dark-mode");
